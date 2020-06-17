@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginBottom="12dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/favourite_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deadpool 2"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/favourite_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating:7.2"
+            android:textColor="#FFCA28"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/favourite_date"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="bottom"
+            android:layout_margin="8dp"
+            android:text="@string/release_date_tip"
+            android:textColor="#6F6D67"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/favourite_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
+        android:textColor="#6F6D67"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Popular Movies Library</string>
+
+    <string name="image_poster">Image Poster</string>
+
+    <string name="sort">Sort By</string>
+
+    <string name="popularity">Popularity</string>
+
+    <string name="top_rated">Top rated</string>
+
+    <string name="title">Title:</string>
+
+    <string name="plot_synopsis">Plot Synopsis:</string>
+
+    <string name="user_rating">User Rating:</string>
+
+    <string name="release_date">Release Date:</string>
+
+    <string name="api_key_missing">Api key not found</string>
+
+    <string name="try_again">Try again</string>
+
+    <string name="network_connection_unavailable">No Network connection!\n\t\t\t\t Try again.</string>
+    <string name="my_favourite">My Favourites</string>
+    <string name="release_date_tip">Release Date: 2008-07-16</string>
+    <string name="movie_reviews">Movie Reviews</string>
+    <string name="watch_trailer">Watch Trailer</string>
+</resources>
